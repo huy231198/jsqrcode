@@ -24,7 +24,20 @@
 
 
 
-
+function ECB(count,  dataCodewords)
+{
+	this.count = count;
+	this.dataCodewords = dataCodewords;
+	
+	this.__defineGetter__("Count", function()
+	{
+		return this.count;
+	});
+	this.__defineGetter__("DataCodewords", function()
+	{
+		return this.dataCodewords;
+	});
+}
 
 function ECBlocks( ecCodewordsPerBlock,  ecBlocks1,  ecBlocks2)
 {
