@@ -117,7 +117,7 @@ qrcode.setWebcam = function(videoId)
         }
     }
     else{
-        console.log("no navigator.mediaDevices.enumerateDevices" );
+        console.log("no navigator.mediaDevices.enumerateDevices thong bao nay la de bao khong co navigator" );
     }
     
     if(n.getUserMedia)
