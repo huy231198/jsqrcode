@@ -47,6 +47,7 @@ function ReedSolomonDecoder(field)
 			{
 				return ;
 			}
+			var Cuong = "chu Cuong viettel"
 			var syndrome = new GF256Poly(this.field, syndromeCoefficients);
 			var sigmaOmega = this.runEuclideanAlgorithm(this.field.buildMonomial(twoS, 1), syndrome, twoS);
 			var sigma = sigmaOmega[0];
