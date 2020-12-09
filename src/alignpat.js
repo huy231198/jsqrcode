@@ -23,7 +23,7 @@
 */
 
 
-// function AlignmentPattern(posX, posY,  estimatedModuleSize)
+// function AlignmentPattern(posX, posY,  estimatedModuleSize)FIX
 // {
 // 	this.x=posX;
 // 	this.y=posY;

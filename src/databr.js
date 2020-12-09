@@ -267,7 +267,7 @@ function QRCodeDataBlockReader(blocks,  version,  numErrorCorrectionCode)
 
 	this.__defineGetter__("DataByte", function()
 	{
-		// var output = new Array();
+		// var output = new Array();FIX
 		// var MODE_NUMBER = 1;
 	    // var MODE_ROMAN_AND_NUMBER = 2;
 	    // var MODE_8BIT_BYTE = 4;
