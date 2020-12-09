@@ -56,6 +56,7 @@ DataBlock.getDataBlocks=function(rawCodewords,  version,  ecLevel)
 	for (var i = 0; i < ecBlockArray.length; i++)
 	{
 		totalBlocks += ecBlockArray[i].Count;
+		console.log(totalBlocks)
 	}
 	
 	// Now establish DataBlocks of the appropriate size and number of data codewords
