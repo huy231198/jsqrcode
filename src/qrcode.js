@@ -142,6 +142,7 @@ qrcode.decode = function(src){
     {
         if(qrcode.canvas_qr2)
         {
+            let Huy = "Huy"
             var canvas_qr = qrcode.canvas_qr2;
             var context = qrcode.qrcontext2;
         }	
