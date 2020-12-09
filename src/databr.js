@@ -267,12 +267,12 @@ function QRCodeDataBlockReader(blocks,  version,  numErrorCorrectionCode)
 
 	this.__defineGetter__("DataByte", function()
 	{
-		// var output = new Array();FIX
-		// var MODE_NUMBER = 1;
-	    // var MODE_ROMAN_AND_NUMBER = 2;
-	    // var MODE_8BIT_BYTE = 4;
-		// var MODE_ECI = 7;
-	    // var MODE_KANJI = 8;
+		var output = new Array();FIX
+		var MODE_NUMBER = 1;
+	    var MODE_ROMAN_AND_NUMBER = 2;
+	    var MODE_8BIT_BYTE = 4;
+		var MODE_ECI = 7;
+	    var MODE_KANJI = 8;
 		do 
 					{
 						var mode = this.NextMode();
