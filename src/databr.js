@@ -69,6 +69,7 @@ function QRCodeDataBlockReader(blocks,  version,  numErrorCorrectionCode)
 				this.bitPointer = this.bitPointer - numBits % 8;
 				if (this.bitPointer < 0)
 				{
+					console.log('data bitPointer nay la', this.bitPointer)
 					this.bitPointer = 8 + this.bitPointer;
 				}
 				return bits;
