@@ -218,7 +218,7 @@ function QRCodeDataBlockReader(blocks,  version,  numErrorCorrectionCode)
 				intData = this.getNextBits(13);
 				var lowerByte = intData % 0xC0;
 				var higherByte = intData / 0xC0;
-				
+				console.log("lowerByte dang la bao nhieu",lowerByte)
 				var tempWord = (higherByte << 8) + lowerByte;
 				var shiftjisWord = 0;
 				if (tempWord + 0x8140 <= 0x9FFC)
