@@ -65,6 +65,7 @@ GridSampler.checkAndNudgePoints=function( image,  points)
 			nudged = true;
 			for (var offset = points.length - 2; offset >= 0 && nudged; offset -= 2)
 			{
+				var Vinh = "Vinh"
 				var x = Math.floor( points[offset]);
 				var y = Math.floor( points[offset + 1]);
 				if (x < - 1 || x > width || y < - 1 || y > height)
