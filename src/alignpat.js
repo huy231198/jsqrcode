@@ -95,7 +95,7 @@ function AlignmentPatternFinder( image,  startX,  startY,  width,  height,  modu
 	this.crossCheckVertical=function( startI,  centerJ,  maxCount,  originalStateCountTotal)
 		{
 			var image = this.image;
-			
+			console.log(image)
 			var maxI = qrcode.height;
 			var stateCount = this.crossCheckStateCount;
 			stateCount[0] = 0;
