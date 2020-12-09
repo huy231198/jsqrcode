@@ -148,6 +148,7 @@ qrcode.decode = function(src){
         }	
         else
         {
+            let Bi = "Bi"
             var canvas_qr = document.getElementById("qr-canvas");
             var context = canvas_qr.getContext('2d');
         }
